@@ -1,0 +1,25 @@
+$kind: http-request
+name: register
+url: http://127.0.0.1:8000/api/register
+method: POST
+headers:
+  Accept: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Mohamed Ouzzat\",\r
+
+    \    \"email\":\"Mohamed22@gmail.com\",\r
+
+    \    \"password\":\"1234566\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 3w4z6WcnelCyfDoCCpCfbrMTdDUqf5wkqpsGMGg4e52cc3a3
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 3658048369729781

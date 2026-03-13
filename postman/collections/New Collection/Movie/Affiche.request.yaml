@@ -1,0 +1,8 @@
+$kind: http-request
+name: Affiche
+url: http://127.0.0.1:8000/api/movies/4
+method: GET
+body:
+  type: json
+  content: "{\r\n    \"title\":\"\"\r\n}"
+order: 1211756715447564

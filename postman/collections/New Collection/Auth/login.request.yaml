@@ -1,0 +1,25 @@
+$kind: http-request
+name: login
+url: http://127.0.0.1:8000/api/login
+method: POST
+headers:
+  - key: Accept
+    value: application/json
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\":\"brad.west@example.org\",\r
+
+    \    \"password\":\"password\"\r
+
+    }"
+auth:
+  credentials:
+    - key: token
+      value: ZF0dd76sspqFK3VBZ2QbBhU7CHJ1rinDUc48X154be9259ed
+  type: bearer
+settings:
+  disabledSystemHeaders:
+    - accept
+order: 3152857629944358

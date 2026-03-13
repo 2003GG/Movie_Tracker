@@ -1,0 +1,12 @@
+$kind: http-request
+name: ajoute
+url: http://127.0.0.1:8000/api/listes
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"Action liste\"\r
+
+    }"
+order: 4402904128998581

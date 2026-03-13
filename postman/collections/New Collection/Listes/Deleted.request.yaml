@@ -1,0 +1,5 @@
+$kind: http-request
+name: Deleted
+url: http://127.0.0.1:8000/api/listes/1
+method: DELETE
+order: 4357563657800152

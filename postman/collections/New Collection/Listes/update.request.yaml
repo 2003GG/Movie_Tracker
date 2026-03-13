@@ -1,0 +1,8 @@
+$kind: http-request
+name: update
+url: http://127.0.0.1:8000/api/listes/1
+method: PUT
+body:
+  type: json
+  content: "{\r\n    \"name\":\"mylist\"\r\n}"
+order: 4244675885982465

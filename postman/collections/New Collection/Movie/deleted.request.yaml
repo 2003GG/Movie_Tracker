@@ -1,0 +1,5 @@
+$kind: http-request
+name: deleted
+url: http://127.0.0.1:8000/api/movies/2
+method: DELETE
+order: 4351982768224190
